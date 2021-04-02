@@ -1,0 +1,98 @@
+body{
+  background-color: hsl(185, 75%, 39%);
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-align: center;
+}
+p{
+  margin: 7px;
+}
+hr{
+  border-style: outset none none none;
+}
+.attribution {
+  padding-top: 120px;
+  font-size: 12px;
+  text-align: center;
+
+}
+
+.attribution a {
+  text-decoration: none;
+  color: hsl(228, 45%, 44%);
+}
+.attribution a:hover{
+  color: white;
+}
+
+.top-image{
+  position: absolute;
+  right: 50%;
+  bottom: 35%;
+}
+.bottom-image{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+}
+.cartao{
+  overflow-x: hidden;
+  overflow-y: hidden;
+  background-color: white;
+  width: 350px;
+  height: 380px;
+  display:inline-block;
+  position: relative;
+  margin-top: 12%;
+  border-radius: 5%;
+  font-family: 'Kumbh Sans', sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+}
+.padrao-cartao{
+
+}
+.texto1{
+  margin-top: 75px;
+}
+.texto2{
+  margin-top: 20px;
+}
+.texto700{
+  font-weight: 700;
+  color: hsl(229, 23%, 23%);
+}
+.idade{
+  font-size: 17px;
+  color: hsl(0, 0%, 59%);
+}
+.cidade{
+  font-weight: 400;
+  color: hsl(0, 0%, 59%);
+  font-size: 14px;
+}
+.foto{
+  border-radius: 50%;
+  position: absolute;
+  top: 97px;
+  left: 122px;
+  display: inline-block;
+  border:solid white 5px;
+}
+.followers{
+  width: 30%;
+  display: inline-block;
+
+}
+.likes{
+  width: 30%;
+  display: inline-block;
+}
+.photos{
+  width: 30%;
+  display: inline-block;
+}
+.texto-pequeno{
+  font-size: 10px;
+  color: hsl(0, 0%, 59%);
+}
